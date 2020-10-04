@@ -1,0 +1,59 @@
+body{
+  margin: 0px;
+
+}
+img{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+.img1{
+  position: absolute;
+  top: 170px;
+  left: 700px;
+  right: 500px;
+  transform: scale(1.0);
+  position: absolute;
+}
+
+
+.topnav {
+    margin: 0 auto;
+    width: 900px;
+    overflow: hidden;
+
+  }
+
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  .topnav a:hover {
+    background-color: grey;
+    color: white;
+  }
+
+  .topnav a.active {
+    background-color: grey;
+    color: white;
+  }
+
+
+i{
+  color: white;
+  font-size: 35px;
+}
+
+div {
+    position: absolute;
+    top: 330px;
+    left: 500px;
+    right: 500px;
+}
